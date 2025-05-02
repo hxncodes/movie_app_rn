@@ -48,7 +48,16 @@ const _layout = () => {
             <TabIcon focused={focused} icon={icons.home} title="Home" />
           ),
         }}
-      />
+      /><Tabs.Screen
+      name="search"
+      options={{
+        title: "Search",
+        headerShown: false,
+        tabBarIcon: ({ focused }) => (
+          <TabIcon focused={focused} icon={icons.search} title="Search" />
+        ),
+      }}
+    />
       <Tabs.Screen
         name="profile"
         options={{
@@ -69,16 +78,7 @@ const _layout = () => {
           ),
         }}
       />
-      <Tabs.Screen
-        name="search"
-        options={{
-          title: "Search",
-          headerShown: false,
-          tabBarIcon: ({ focused }) => (
-            <TabIcon focused={focused} icon={icons.search} title="Search" />
-          ),
-        }}
-      />
+      
     </Tabs>
   );
 };

@@ -22,6 +22,7 @@ export const fetchMovies = async ({ query }: { query: string }) => {
   const data = await response.json();
   return data.results;
 }
+
 const url = "keyword/{keyword_id}/movie";
 const options = {
   method: "GET",

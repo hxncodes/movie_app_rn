@@ -1,0 +1,2 @@
+-- Mark file
+-- This file exist just to mark that today I have spent some time in learning coding, or watcjing some tutorials, but did not coded actually, So this file is created just to mark my point in github for daily progress.

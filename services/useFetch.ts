@@ -17,6 +17,8 @@ const useFetch = <T>(fetchFunction:()=>Promise<T>, autoFetch = true)=>{
             setLoading(false);
         }
     }
+    
+
 
     const reset = ()=>{
         setData(null);
